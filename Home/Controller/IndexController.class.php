@@ -3,6 +3,6 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-      echo "你好！";
+      echo "2017世界更美好！";
     }
 }
