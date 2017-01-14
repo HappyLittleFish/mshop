@@ -4,8 +4,8 @@
 <title>ECSHOP 管理中心 - 商品分类 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -31,19 +31,19 @@
   </tr>
   <?php if(is_array($catlist)): foreach($catlist as $key=>$cat): ?><tr align="center" class="0" id="0_1" id = 'tr_1'>
     <td align="left" class="first-cell" style = 'padding-left="0"'>
-            <img src="/shop/Public/Admin/images/menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:<?php echo ($cat['lv']*2); ?>em" />
+            <img src="/Public/Admin/images/menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:<?php echo ($cat['lv']*2); ?>em" />
             <span><a href="#" ><?php echo ($cat["cat_name"]); ?></a></span>
         </td>
     <td width="10%">0</td>
     <td width="10%"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-    <td width="10%"><img src="/shop/Public/Admin/images/no.gif" /></td>
-    <td width="10%"><img src="/shop/Public/Admin/images/yes.gif" /></td>
+    <td width="10%"><img src="/Public/Admin/images/no.gif" /></td>
+    <td width="10%"><img src="/Public/Admin/images/yes.gif" /></td>
     <td><span>5</span></td>
 
     <td width="10%" align="right"><span>50</span></td>
     <td width="24%" align="center">
       <a href="#">转移商品</a> |
-      <a href="<?php echo U('admin/cat/cateedit',array('cat_id'=>$cat['cat_id']));?>">编辑</a> |
+      <a href="<?php echo U('admin/cat/cateedit',array('cat_id'=>$cat[cat_id]));?>">编辑</a> |
       <a href="<?php echo U('admin/cat/catedel',array('cat_id'=>$cat['cat_id']));?>" title="移除">移除</a>
     </td>
   </tr><?php endforeach; endif; ?>

@@ -28,10 +28,13 @@
         <td class="label">上级分类:</td>
         <td>
           <select name="parent_id">
-              <option value="0">leixing</option>
-              <?php if(is_array($gettree)): foreach($gettree as $key=>$c): ?><option value="<?php echo ($c["cat_id"]); ?>"  <?php echo ($c['cat_id']==$catinfo['parent_id']?'selected':''); ?>  ><?php echo ($c["cat_name"]); ?></option><?php endforeach; endif; ?>
+          <?php if(is_array($gettree)): foreach($gettree as $key=>$tree): if($catinfo["parent_id"] == $tree.cat_id): ?><option value="<?php echo ($tree["cat_id"]); ?>" selected>
+              <?php echo ($tree["cat_name"]); ?></option>
+              <?php else: ?>
+              <option value="<?php echo ($tree["cat_id"]); ?>">
+              <?php echo ($tree["cat_name"]); ?></option><?php endif; endforeach; endif; ?>
 
-              <!---
+                       <!--  <option value="2">&nbsp;&nbsp;CDMA手机</option>
                         <option value="3">&nbsp;&nbsp;GSM手机</option>
                         <option value="4">&nbsp;&nbsp;3G手机</option>
                         <option value="5">&nbsp;&nbsp;双模手机</option>
@@ -43,7 +46,7 @@
                         <option value="12">充值卡</option>
                         <option value="13">&nbsp;&nbsp;小灵通/固话充值卡</option>
                         <option value="14">&nbsp;&nbsp;移动手机充值卡</option>
-                        <option value="15">&nbsp;&nbsp;联通手机充值卡</option> -->
+                        <option value="15">&nbsp;&nbsp;联通手机充值卡</option>  -->
                       </select>
         </td>
       </tr>
