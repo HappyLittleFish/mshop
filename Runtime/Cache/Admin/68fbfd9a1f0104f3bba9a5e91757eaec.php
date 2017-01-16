@@ -45,6 +45,7 @@
   <tr>
     <th>
       <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+
       <a href="#">编号</a><img src="/Public/Admin/images/sort_desc.gif"/>    </th>
 
     <th><a href="#">商品名称</a></th>
@@ -59,7 +60,7 @@
         <th><a href="#">库存</a></th>
         <th>操作</th>
   <tr>
-      <?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
+      <?php if(is_array($goodslist)): foreach($goodslist as $key=>$v): ?><tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo ($v["goods_id"]); ?></td>
 
     <td class="first-cell" style=""><span ><?php echo ($v["goods_name"]); ?></span></td>

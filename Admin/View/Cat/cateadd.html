@@ -26,10 +26,16 @@
       </tr>
       <tr>
         <td class="label">上级分类:</td>
-        <td>
+<td>
           <select name="parent_id">
-                        <option value="1">手机类型</option>
-                        <option value="2">&nbsp;&nbsp;CDMA手机</option>
+          <foreach name = "gettree" item = "tree">
+          <if condition = "$tree.parent_id eq 0">
+          <option value = "{$tree.cat_id}">{$tree.cat_name}</option>
+          <else />
+          </if>
+          </foreach>
+
+                       <!--  <option value="2">&nbsp;&nbsp;CDMA手机</option>
                         <option value="3">&nbsp;&nbsp;GSM手机</option>
                         <option value="4">&nbsp;&nbsp;3G手机</option>
                         <option value="5">&nbsp;&nbsp;双模手机</option>
@@ -41,7 +47,7 @@
                         <option value="12">充值卡</option>
                         <option value="13">&nbsp;&nbsp;小灵通/固话充值卡</option>
                         <option value="14">&nbsp;&nbsp;移动手机充值卡</option>
-                        <option value="15">&nbsp;&nbsp;联通手机充值卡</option>
+                        <option value="15">&nbsp;&nbsp;联通手机充值卡</option>  -->
                       </select>
         </td>
       </tr>

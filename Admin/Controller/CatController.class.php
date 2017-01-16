@@ -11,11 +11,14 @@ class CatController extends Controller {
     	else{
     		echo "失败";
     	}	
-        $this->display();
-	}
+  }
+  	$catModel = D('Cat');
+  	$this->assign('gettree',$catModel->gettree());
+	$this->display();
+}
 	public function catelist(){
-		$catModel = D("Cat");
-		$this->assign("catlist",$catModel->gettree());
+		$catModel = D('Cat');
+		$this->assign('catlist',$catModel->gettree());
 		$this->display();
 	}
 		public function cateedit(){

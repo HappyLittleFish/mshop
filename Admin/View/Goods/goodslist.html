@@ -45,6 +45,7 @@
   <tr>
     <th>
       <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+
       <a href="#">编号</a><img src="__PUBLIC__/Admin/images/sort_desc.gif"/>    </th>
 
     <th><a href="#">商品名称</a></th>
@@ -59,7 +60,7 @@
         <th><a href="#">库存</a></th>
         <th>操作</th>
   <tr>
-      <foreach name="list" item="v">
+      <foreach name="goodslist" item="v">
       <tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" />{$v.goods_id}</td>
 
