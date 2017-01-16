@@ -1,99 +1,1194 @@
-[ 2017-01-16T09:15:31+08:00 ] 127.0.0.1 /
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2017-01-16T09:52:35+08:00 ] ::1 /shop/
+[ 2017-01-16T19:19:26+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/4.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 12,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:27+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:27+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:28+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:28+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2017-01-16T09:52:39+08:00 ] ::1 /shop/index.php
+[ 2017-01-16T19:19:28+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:30+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2017-01-16T09:54:22+08:00 ] ::1 /shop/index.php
+[ 2017-01-16T19:19:30+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:30+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:30+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-01-16T09:54:23+08:00 ] ::1 /shop/
+[ 2017-01-16T19:19:31+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:31+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:31+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:31+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:32+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:32+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:32+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:33+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 12,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 12,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:34+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 12,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:35+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-01-16T09:54:25+08:00 ] ::1 /shop/
+[ 2017-01-16T19:19:35+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T19:19:35+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:35+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:35+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 8,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:36+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2017-01-16T09:54:26+08:00 ] ::1 /shop/index.php
+[ 2017-01-16T19:19:36+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-01-16T09:54:31+08:00 ] ::1 /shop/index.php
+[ 2017-01-16T19:19:36+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2017-01-16T11:10:44+08:00 ] ::1 /shop/index.php
+[ 2017-01-16T19:19:36+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:36+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:37+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T19:19:37+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:37+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T19:19:37+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-16T19:19:37+08:00 ] 127.0.0.1 /index.php/Home/Cat/cat/cat_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`goods_img`,`market_price` FROM `goods` WHERE ( cat_id=3 ) LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 244 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' D:\WWW\shop\Runtime\Cache\Home\449c4c1fd7bfb113095defb76959b374.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
