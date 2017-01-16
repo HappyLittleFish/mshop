@@ -216,7 +216,7 @@
 <div class="recommendContent entry-content" id="show_hot_area">
         <foreach name="hot" item='h'>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$h[goods_id]))}"><img src=".{$h[goods_img]}" alt="{$h['goods_name']}"></a></div>
+				<div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$h[goods_id]))}"><img src="{$h[goods_img]}" alt="{$h['goods_name']}"></a></div>
     			 <a href="{:U(home/goods/goods,array('goods_id'=>$h[goods_id]))}}" title="ECSHOP模板中心68ecshop.com测试商品">{$h['goods_name']}</a><br>
               <font class="goodspice market">￥{$h[market_price]}元</font>
 			 			 <b class="f1">￥{$h[shop_price]}元</b><br>

@@ -199,7 +199,7 @@
 </div>
 <div class="recommendContent entry-content" id="show_hot_area">
         <?php if(is_array($hot)): foreach($hot as $key=>$h): ?><div class="goodsbox1">
-				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src=".<?php echo ($h[goods_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
+				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src="<?php echo ($h[goods_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
     			 <a href="<?php echo U(home/goods/goods,array('goods_id'=>$h[goods_id]));?>}" title="ECSHOP模板中心68ecshop.com测试商品"><?php echo ($h['goods_name']); ?></a><br>
               <font class="goodspice market">￥<?php echo ($h[market_price]); ?>元</font>
 			 			 <b class="f1">￥<?php echo ($h[shop_price]); ?>元</b><br>

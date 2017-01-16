@@ -92,7 +92,7 @@
 			<p class="goodsInfo">
             <span>商品货号：<?php echo ($goodsinfo['goods_sn']); ?></span>
             <span>商品库存： 4 台</span>
-            <span>商品品牌：<a href=""><u>诺基亚</u></a></span>
+            <span>商品品牌：<a href=""><u><?php echo ($goodsinfo['goods_name']); ?></u></a></span>
             <span>商品重量：0克</span>
             <span>上架时间：2009-05-12</span>
             <span>商品点击数：796</span>
