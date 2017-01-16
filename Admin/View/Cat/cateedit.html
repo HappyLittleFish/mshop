@@ -29,13 +29,7 @@
         <td>
           <select name="parent_id">
           <foreach name = "gettree" item = "tree">
-            <if condition = "$catinfo.parent_id eq $tree.cat_id">
-              <option value="{$tree.cat_id}" selected>
-              {$tree.cat_name}</option>
-              <else />
-              <option value="{$tree.cat_id}">
-              {$tree.cat_name}</option>
-              </if>
+          <option value = "{$tree.cat_id}" {$tree['cat_id']==$catinfo['parent_id']?selected:''}>{$tree.cat_name}</option>
           </foreach>
 
                        <!--  <option value="2">&nbsp;&nbsp;CDMA手机</option>

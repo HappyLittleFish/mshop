@@ -4,8 +4,8 @@
 <title>ECSHOP 管理中心 - 添加分类 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -28,11 +28,7 @@
         <td class="label">上级分类:</td>
         <td>
           <select name="parent_id">
-          <?php if(is_array($gettree)): foreach($gettree as $key=>$tree): if($catinfo["parent_id"] == $tree.cat_id): ?><option value="<?php echo ($tree["cat_id"]); ?>" selected>
-              <?php echo ($tree["cat_name"]); ?></option>
-              <?php else: ?>
-              <option value="<?php echo ($tree["cat_id"]); ?>">
-              <?php echo ($tree["cat_name"]); ?></option><?php endif; endforeach; endif; ?>
+          <?php if(is_array($gettree)): foreach($gettree as $key=>$tree): ?><option value = "<?php echo ($tree["cat_id"]); ?>" <?php echo ($tree['cat_id']==$catinfo['parent_id']?selected:''); ?>><?php echo ($tree["cat_name"]); ?></option><?php endforeach; endif; ?>
 
                        <!--  <option value="2">&nbsp;&nbsp;CDMA手机</option>
                         <option value="3">&nbsp;&nbsp;GSM手机</option>

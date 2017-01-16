@@ -1,0 +1,337 @@
+[ 2017-01-16T07:33:20+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-01-16T07:33:20+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-01-16T07:33:43+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-01-16T07:33:51+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2017-01-16T07:33:57+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1366:Incorrect decimal value: '' for column 'goods_weight' at row 1
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`) VALUES ('13','1234','11','024','','','1','1','','0')
+ERR: 1366:Incorrect decimal value: '' for column 'goods_weight' at row 1
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`) VALUES ('13','1234','11','024','','','1','1','','0')
+
+[ 2017-01-16T07:34:07+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`) VALUES ('13','1234','11','024','','13','1','1','','0') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-16T07:44:44+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-01-16T07:45:15+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`) VALUES ('xiaoye','2489','6','12','','12','1','1','','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-16T07:45:43+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`,`add_time`) VALUES ('xiaoye2','248923','6','12','','12','1','1','','0','1484523943') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-16T07:51:57+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:52:03+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:52:10+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:52:42+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:54:29+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:55:54+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: goods_sn /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2017-01-16T07:56:32+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','897353','1484524592')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','897353','1484524592')
+
+[ 2017-01-16T07:56:57+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','8973532','1484524617')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','8973532','1484524617')
+
+[ 2017-01-16T07:59:04+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','12345','1484524744')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye6','12345','1484524744')
+
+[ 2017-01-16T08:05:49+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goods_name`,`goods_sn`,`cat_id`,`shop_price`,`goods_desc`,`goods_weight`,`goods_number`,`is_on_sale`,`goods_brief`,`goods_id`,`add_time`) VALUES ('xiaoye6','12345','6','1223','','123','1','1','','0','1484525149') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-01-16T08:06:31+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525191')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525191')
+
+[ 2017-01-16T08:06:59+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525219')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525219')
+
+[ 2017-01-16T08:08:46+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525326')
+ERR: 1364:Field 'goods_desc' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525326')
+
+[ 2017-01-16T08:09:53+08:00 ] ::1 /shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/littlefish/Sites/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '12345' for key 'goods_sn'
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525393')
+ERR: 1062:Duplicate entry '12345' for key 'goods_sn'
+ [ SQL语句 ] : INSERT INTO `goods` (`goods_name`,`goods_sn`,`add_time`) VALUES ('xiaoye8','12345','1484525393')
+
