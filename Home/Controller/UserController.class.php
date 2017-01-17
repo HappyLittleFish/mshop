@@ -8,7 +8,16 @@ class UserController extends Controller {
     public function msg(){
       $this->display();
     }
+
     public function reg(){
-      $this->display();
+    	if (IS_POST) {
+	    	$userModel = D('User');
+	    	if (!$userModel->create()) {
+	    		echo $userModel->getError();
+	    	}else{
+	    		$userModel->add();
+	    	}
+    	}
+   	      	$this->display();
     }        
 }

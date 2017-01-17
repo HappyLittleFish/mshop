@@ -11,7 +11,7 @@
 </style>
 <link rel="shortcut icon" >
 <link rel="icon"  type="image/gif">
-<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="head-bar clearfix">
@@ -30,7 +30,7 @@
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl"><a href="" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
       <div class="btMap">
         <div class="search ">
           <form id="searchForm" name="searchForm" method="get" action="">
@@ -185,7 +185,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|

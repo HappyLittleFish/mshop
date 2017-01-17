@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 <link rel="shortcut icon" href="">
 <link rel="icon" href="" type="image/gif">
-<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="head-bar clearfix">
@@ -27,7 +27,7 @@
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl"><a href="" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
       <div class="btMap">
         <div class="search ">
           <form id="searchForm" name="searchForm" method="get" action="">
@@ -68,7 +68,7 @@
 	<div class="ur_here blank">
 		当前位置: <a href="">首页</a> <code>&gt;</code> <a href="">手机类型</a>
 	</div>  <div id="pageLeft" class="fl">
-	 <h1 style="background:url(/Public/Home/images/sdgg.gif) repeat-x; height:27px; line-height:27px; padding-left:10px;"><a href=""><font style="color:#000; font-size:14px;">所有分类</font></a></h1>
+	 <h1 style="background:url(/shop/Public/Home/images/sdgg.gif) repeat-x; height:27px; line-height:27px; padding-left:10px;"><a href=""><font style="color:#000; font-size:14px;">所有分类</font></a></h1>
 	<div class="mod1 mod2 blank" id="historybox">
 	<span class="lb"></span><span class="rb"></span>
 	<div class="cagegoryCon clearfix">
@@ -109,7 +109,7 @@
 	</div>
 	<div class="blank"></div>
 	</div>
-	<h1 class="mod2tit" style="background:url(/Public/Home/images/sdgg.gif) repeat-x; height:27px; color:#000">销售排行</h1>
+	<h1 class="mod2tit" style="background:url(/shop/Public/Home/images/sdgg.gif) repeat-x; height:27px; color:#000">销售排行</h1>
 	<div class="mod1 mod2 blank" id="topbox">
 	<span class="lb"></span><span class="rb"></span>
 	 <ul id="top10">
@@ -121,7 +121,7 @@
 				<div class="fr"><b class="f1">￥68元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
 				<b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥68元</b><br>
 			 </div>
@@ -134,7 +134,7 @@
 				<div class="fr"><b class="f1">￥2000元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/24_thumb_G_1370338453422.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/24_thumb_G_1370338453422.jpg" alt="" align="left"></a>
 				<b class="f1">2。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥2000元</b><br>
 			 </div>
@@ -147,7 +147,7 @@
 				<div class="fr"><b class="f1">￥983元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/12_thumb_G_1241965978410.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/12_thumb_G_1241965978410.jpg" alt="" align="left"></a>
 				<b class="f1">3。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥983元</b><br>
 			 </div>
@@ -160,7 +160,7 @@
 				<div class="fr"><b class="f1">￥2298元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/9_thumb_G_1370338145445.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/9_thumb_G_1370338145445.jpg" alt="" align="left"></a>
 				<b class="f1">4。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥2298元</b><br>
 			 </div>
@@ -173,7 +173,7 @@
 				<div class="fr"><b class="f1">￥5999元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="" align="left"></a>
 				<b class="f1">5。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥5999元</b><br>
 			 </div>
@@ -186,7 +186,7 @@
 				<div class="fr"><b class="f1">￥280元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/20_thumb_G_1370338655638.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/20_thumb_G_1370338655638.jpg" alt="" align="left"></a>
 				<b class="f1">6。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥280元</b><br>
 			 </div>
@@ -199,7 +199,7 @@
 				<div class="fr"><b class="f1">￥399元</b></div>
 			 </div>
 			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/8_thumb_G_1241425513488.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/8_thumb_G_1241425513488.jpg" alt="" align="left"></a>
 				<b class="f1">7。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥399元</b><br>
 			 </div>
@@ -219,12 +219,12 @@
 	<div class="goodsTitle clearfix blank"> <span class="fl">商品列表</span>
   <form method="GET" class="sort fr" name="listform">
     显示方式：
-    <a href=""><img src="/Public/Home/images/display_mode_list.gif" alt=""></a>
-    <a href=""><img src="/Public/Home/images/display_mode_grid_act.gif" alt=""></a>
-    <a href=""><img src="/Public/Home/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
-    <a href=""><img src="/Public/Home/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
-    <a href=""><img src="/Public/Home/images/shop_price_default.gif" alt="按价格排序"></a>
-    <a href=""><img src="/Public/Home/images/last_update_default.gif" alt="按更新时间排序"></a>
+    <a href=""><img src="/shop/Public/Home/images/display_mode_list.gif" alt=""></a>
+    <a href=""><img src="/shop/Public/Home/images/display_mode_grid_act.gif" alt=""></a>
+    <a href=""><img src="/shop/Public/Home/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
+    <a href=""><img src="/shop/Public/Home/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
+    <a href=""><img src="/shop/Public/Home/images/shop_price_default.gif" alt="按价格排序"></a>
+    <a href=""><img src="/shop/Public/Home/images/last_update_default.gif" alt="按更新时间排序"></a>
     <input type="hidden" name="category" value="1">
     <input type="hidden" name="display" value="grid" id="display">
     <input type="hidden" name="brand" value="0">
@@ -241,7 +241,7 @@
         <div class="clearfix grid">
            
             <?php if(is_array($goodsList)): foreach($goodsList as $key=>$g): ?><div class="goodsbox1" style="margin: 5px 9px 8px 8px;*margin:5px 6px 10px 14px;">
-                <div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>"><img src="<?php echo ($g[goods_img]); ?>" alt="ECSHOP模板中心68ecs..."></a></div>
+                <div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>"><img src=".<?php echo ($g['goods_img']); ?>" alt="<?php echo ($g['goods_name']); ?>"></a></div>
                 <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>" title="ECSHOP模板中心68ecshop.com测试商品"><?php echo ($g[goods_name]); ?></a><br>
                 <font class="market">￥<?php echo ($g['market_price']); ?>元</font>
                 <b class="f1">￥<?php echo ($g['shop_price']); ?>元</b><br>
@@ -313,7 +313,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|

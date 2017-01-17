@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 <link rel="shortcut icon" href="">
 <link rel="icon" href="" type="image/gif">
-<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 <style>.ur_here{width:980px;}</style>
 </head>
 <body style="cursor: auto;">
@@ -28,7 +28,7 @@
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl"><a href="" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
       <div class="btMap">
         <div class="search ">
           <form id="searchForm" name="searchForm" method="get" action="">
@@ -75,9 +75,9 @@
 
 	  <div class="goodsimgbox fl">
 		<div id="focuscont">
-     <a style="border: 1px solid rgb(210, 208, 208); width: 400px; height: 400px; display: block; padding: 0px; position: relative; outline: 0px; text-decoration: none;" href="/Public/Home/images/32_G_1370338389558.jpg" id="zoom1" class="MagicZoom MagicThumb" title="ECSHOP模板中心68ecshop.com测试商品">
+     <a style="border: 1px solid rgb(210, 208, 208); width: 400px; height: 400px; display: block; padding: 0px; position: relative; outline: 0px; text-decoration: none;" href="/shop/Public/Home/images/32_G_1370338389558.jpg" id="zoom1" class="MagicZoom MagicThumb" title="ECSHOP模板中心68ecshop.com测试商品">
         <img src="<?php echo ($goodsinfo[goods_img]); ?>" alt="ECSHOP模板中心68ecshop.com测试商品" width="400" height="400" style="margin:0;" id="sim974895">
-     <div id="bc974895" class="MagicZoomBigImageCont" style="width: 310px; height: 310px; overflow: hidden; z-index: 100; visibility: hidden; position: absolute; top: -10000px; left: 415px;"><div class="MagicZoomHeader" id="MagicZoomHeaderbc974895" style="position: relative; z-index: 10; left: 0px; top: 0px; padding: 3px;">ECSHOP模板中心68ecshop.com测试商品</div><div style="overflow: hidden;"><img src="/Public/Home/images/32_G_1370338389558.jpg" style="position: relative; border-width: 0px; padding: 0px; left: 0px; top: 0px;"></div><div style="color: rgb(255, 0, 0); font-size: 10px; font-weight: bold; font-family: Tahoma; position: absolute; width: 100%; text-align: center; left: 0px; top: 290px;"></div></div><div class="MagicZoomPup" style="z-index: 10; visibility: hidden; position: absolute; opacity: 0.05; width: 98px; height: 98px;"></div></a>
+     <div id="bc974895" class="MagicZoomBigImageCont" style="width: 310px; height: 310px; overflow: hidden; z-index: 100; visibility: hidden; position: absolute; top: -10000px; left: 415px;"><div class="MagicZoomHeader" id="MagicZoomHeaderbc974895" style="position: relative; z-index: 10; left: 0px; top: 0px; padding: 3px;">ECSHOP模板中心68ecshop.com测试商品</div><div style="overflow: hidden;"><img src="/shop/Public/Home/images/32_G_1370338389558.jpg" style="position: relative; border-width: 0px; padding: 0px; left: 0px; top: 0px;"></div><div style="color: rgb(255, 0, 0); font-size: 10px; font-weight: bold; font-family: Tahoma; position: absolute; width: 100%; text-align: center; left: 0px; top: 290px;"></div></div><div class="MagicZoomPup" style="z-index: 10; visibility: hidden; position: absolute; opacity: 0.05; width: 98px; height: 98px;"></div></a>
 	   </div>
     <div class="picture" id="imglist">
     </div>
@@ -96,14 +96,14 @@
             <span>商品重量：0克</span>
             <span>上架时间：2009-05-12</span>
             <span>商品点击数：796</span>
-            <span>用户评价： <img src="/Public/Home/images/stars5.gif" alt="comment rank 5">
+            <span>用户评价： <img src="/shop/Public/Home/images/stars5.gif" alt="comment rank 5">
             </span>
 			</p>
 			<div class="Goodpromotion" style="float:left; width:550px; border-left:none; border-right:none;">
 			<font style="font-size:12px;">本店售价：</font><font class="price" id="ECS_SHOPPRICE" style="font-size:20px;">￥3010元</font><br>
             <font class="goodspice" style="color:#CCC">市场价格：<span class="market">￥3612元</span></font><br>
 			<div class="blank"></div>
-			<a href="<?php echo U('Home/goods/gwc',array('goods_id'=>$goodsinfo['goods_id']));?>"><img src="/Public/Home/images/bnt_buy.gif"></a>
+			<a href="<?php echo U('Home/goods/gwc',array('goods_id'=>$goodsinfo['goods_id']));?>"><img src="/shop/Public/Home/images/bnt_buy.gif"></a>
             </div>
 		</form>
 		</div>
@@ -1435,9 +1435,9 @@
           <td align="right" valign="top">评论内容：</td>
           <td>
           <!-- <textarea name="content" class="InputBorder" cols="80" rows="3"></textarea> -->
-          <script type="text/javascript" charset="utf-8" src="/Public/u/ueditor.config.js"></script>
-          <script type="text/javascript" charset="utf-8" src="/Public/u/ueditor.all.min.js"> </script>
-          <script type="text/javascript" charset="utf-8" src="/Public/u/lang/zh-cn/zh-cn.js"></script>
+          <script type="text/javascript" charset="utf-8" src="/shop/Public/u/ueditor.config.js"></script>
+          <script type="text/javascript" charset="utf-8" src="/shop/Public/u/ueditor.all.min.js"> </script>
+          <script type="text/javascript" charset="utf-8" src="/shop/Public/u/lang/zh-cn/zh-cn.js"></script>
           <script id="editor" type="text/plain"  name="content" style="width:800px;height:200px;"></script>
           <script type="text/javascript">
               //实例化编辑器
@@ -1453,7 +1453,7 @@
           <td colspan="2">
                     <!-- <div class="captcha fl">
           验证码：<input type="text" name="captcha" size="10" class="InputBorder">
-          <img src="/Public/Home/images/captcha.php" alt="captcha" >
+          <img src="/shop/Public/Home/images/captcha.php" alt="captcha" >
           </div> -->
                     <input name="" type="submit" value="提交评论" class="bnt_number4 fr">
           </td>
@@ -1520,7 +1520,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|

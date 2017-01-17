@@ -9,7 +9,7 @@
 <title>ECSHOP演示站 - </title>
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="icon" href="./animated_favicon.gif" type="image/gif">
-<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS|ECSHOP演示站 - " href="./feed.php">
 </head>
 <body>
@@ -36,7 +36,7 @@
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="./index.php.htm" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl"><a href="./index.php.htm" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
     <div class="btMap">
       <div class="search ">
         <form id="searchForm" name="searchForm" method="get" action="">
@@ -71,7 +71,7 @@
   </div>
 </div>
 </div>
-<div style="position:relative; width:1190px; margin:0 auto;"><object width="1190" height="360"><img src="/Public/Home/images/banner.png" style='margin:0 0 0 250px;' alt="" />
+<div style="position:relative; width:1190px; margin:0 auto;"><object width="1190" height="360"><img src="/shop/Public/Home/images/banner.png" style='margin:0 0 0 250px;' alt="" />
 </object>
 <div class="blank"></div> </div>
 <div class="blank" style="position:relative; width:1190px; margin:0 auto;">
@@ -118,7 +118,7 @@
     <div class="w230" style="">
 <div class="ads">
 <table cellpadding="0" cellspacing="0">
-<tbody><tr><td><a href="" target="_blank"><img src="/Public/Home/images/1370400501175025752.jpg" width="230" height="100" border="0"></a></td></tr>
+<tbody><tr><td><a href="" target="_blank"><img src="/shop/Public/Home/images/1370400501175025752.jpg" width="230" height="100" border="0"></a></td></tr>
 </tbody></table></div> </div>
 
     <div class="w230">
@@ -137,7 +137,7 @@
 				<div class="fr"><b class="f1">￥<?php echo ($h['shop_price']); ?>元</b></div>
 			 </div>
 			 <!-- <div class="last">
-			  <a href=""><img src="/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/shop/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
 				<b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥68元</b><br>
 			 </div> -->
@@ -150,13 +150,13 @@
 <div class="mod1 mod2 blank brandboxs1">
 	<span class="lb"></span><span class="rb"></span>
 	<div class="brandsL clearfix">
-		<a href=""><img src="/Public/Home/images/1240803062307572427.gif" alt="诺基亚 (7)"></a>
-    <a href=""><img src="/Public/Home/images/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
-    <a href=""><img src="/Public/Home/images/1240803144788047486.gif" alt="多普达 (1)"></a>
-    <a href=""><img src="/Public/Home/images/1240803247838195732.gif" alt="飞利浦 (1)"></a>
-    <a href=""><img src="/Public/Home/images/1240803352280856940.gif" alt="夏新 (1)"></a>
-    <a href=""><img src="/Public/Home/images/1240803412367015368.gif" alt="三星 (2)"></a>
-    <a href=""><img src="/Public/Home/images/1240803482283160654.gif" alt="索爱 (2)"></a>
+		<a href=""><img src="/shop/Public/Home/images/1240803062307572427.gif" alt="诺基亚 (7)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240803144788047486.gif" alt="多普达 (1)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240803247838195732.gif" alt="飞利浦 (1)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240803352280856940.gif" alt="夏新 (1)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240803412367015368.gif" alt="三星 (2)"></a>
+    <a href=""><img src="/shop/Public/Home/images/1240803482283160654.gif" alt="索爱 (2)"></a>
 	</div>
 </div>
 <!--<div class="brandboxs blank">
@@ -199,7 +199,7 @@
 </div>
 <div class="recommendContent entry-content" id="show_hot_area">
         <?php if(is_array($hot)): foreach($hot as $key=>$h): ?><div class="goodsbox1">
-				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src="<?php echo ($h[goods_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
+				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src=".<?php echo ($h[goods_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
     			 <a href="<?php echo U(home/goods/goods,array('goods_id'=>$h[goods_id]));?>}" title="ECSHOP模板中心68ecshop.com测试商品"><?php echo ($h['goods_name']); ?></a><br>
               <font class="goodspice market">￥<?php echo ($h[market_price]); ?>元</font>
 			 			 <b class="f1">￥<?php echo ($h[shop_price]); ?>元</b><br>
@@ -217,25 +217,25 @@
 </div>
 <div class="recommendContent entry-content" id="show_best_area">
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=5.htm"><img src="/Public/Home/images/5_thumb_G_1370338478388.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=5.htm"><img src="/shop/Public/Home/images/5_thumb_G_1370338478388.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=5.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥24元</font>
 			 			 <b class="f1">￥20元</b><br>
 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=7.htm"><img src="/Public/Home/images/7_thumb_G_1370338401919.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=7.htm"><img src="/shop/Public/Home/images/7_thumb_G_1370338401919.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=7.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥120元</font>
 			 			 <b class="f1">￥100元</b><br>
 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=22.htm"><img src="/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=22.htm"><img src="/shop/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=22.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥7199元</font>
 			 			 <b class="f1">￥5999元</b><br>
 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=19.htm"><img src="/Public/Home/images/19_thumb_G_1370338674278.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=19.htm"><img src="/shop/Public/Home/images/19_thumb_G_1370338674278.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=19.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥1030元</font>
 			 			 <b class="f1">￥858元</b><br>
@@ -252,25 +252,25 @@
 </div>
 <div class="recommendContent entry-content" id="show_new_area">
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=5.htm"><img src="/Public/Home/images/5_thumb_G_1370338478388.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=5.htm"><img src="/shop/Public/Home/images/5_thumb_G_1370338478388.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=5.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥24元</font>
 			 			 <b class="f1">￥20元</b><br>
 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=3.htm"><img src="/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=3.htm"><img src="/shop/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=3.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥82元</font>
 			 			 <b class="f1">￥68元</b><br>
 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=7.htm"><img src="/Public/Home/images/7_thumb_G_1370338401919.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=7.htm"><img src="/shop/Public/Home/images/7_thumb_G_1370338401919.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=7.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥120元</font>
 			 			 <b class="f1">￥100元</b><br>
 			 			</div>
       <div class="goodsbox1">
-				<div class="imgbox1"><a href="./goods.php-id=22.htm"><img src="/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
+				<div class="imgbox1"><a href="./goods.php-id=22.htm"><img src="/shop/Public/Home/images/22_thumb_G_1370338695095.jpg" alt="ECSHOP模板中心68ecshop.com测试商品"></a></div>
 			 <a href="./goods.php-id=22.htm" title="ECSHOP模板中心68ecshop.com测试商品">ECSHOP模板中心68ecs...</a><br>
               <font class="goodspice market">￥7199元</font>
 			 			 <b class="f1">￥5999元</b><br>
@@ -334,7 +334,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|

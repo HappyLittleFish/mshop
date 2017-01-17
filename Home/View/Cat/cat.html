@@ -242,7 +242,7 @@
            
             <foreach name='goodsList' item="g">
             <div class="goodsbox1" style="margin: 5px 9px 8px 8px;*margin:5px 6px 10px 14px;">
-                <div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$g['goods_id']))}"><img src="{$g[goods_img]}" alt="ECSHOP模板中心68ecs..."></a></div>
+                <div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$g['goods_id']))}"><img src=".{$g['goods_img']}" alt="{$g['goods_name']}"></a></div>
                 <a href="{:U('Home/goods/goods',array('goods_id'=>$g['goods_id']))}" title="ECSHOP模板中心68ecshop.com测试商品">{$g[goods_name]}</a><br>
                 <font class="market">￥{$g['market_price']}元</font>
                 <b class="f1">￥{$g['shop_price']}元</b><br>
