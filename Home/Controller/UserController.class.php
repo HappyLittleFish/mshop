@@ -45,6 +45,19 @@ class UserController extends Controller {
 
     }
 
+    public function logout(){
+    	cookie('username',null);
+    	cookie('userid',null);
+    	cookie('key',null);
+    	
+    	$this->success('','/shop',0);
+
+
+
+
+
+    }
+
     public function msg(){
       $this->display();
     }

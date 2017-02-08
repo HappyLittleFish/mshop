@@ -18,6 +18,7 @@
     <div class="site-bar">
     <if condition = "che()">
         您好<font color = "red">{$Think.cookie.username}</font>，欢迎光临本店！
+        <a href = "{:U('Home/user/logout')}">退出</a>
     <else />
            <a href="{:U('Home/user/login')}" style="color:#50884b">登录</a>
            <a href="{:U('Home/user/reg')}" style="color:#50884b">免费注册</a>
