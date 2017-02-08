@@ -6,4 +6,5 @@ return array(
     'DB_NAME'               =>  'shop',          // 数据库名
     'DB_USER'               =>  'root',      // 用户名
     'DB_PWD'                =>  'root',          // 密码
+    'COO_KIE'               =>   'skalf#@$&sadfg'
 );

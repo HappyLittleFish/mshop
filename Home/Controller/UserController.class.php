@@ -22,9 +22,12 @@ class UserController extends Controller {
     		if($userinfo['password']!==md5($password.$userinfo['salt'])){
     			$this->error('密码错误','',1);
     		}else{
-    			cookie('userid',$userinfo['user_id']);
+    			cookie('userid',$userinfo['password']);
     			cookie('username',$userinfo['username']);
-    			$this->success('你好','/shop',1);
+
+    			$coo_kie = jm($userinfo['username'].$userinfo['password'].C('COO_KIE'));
+    			cookie('key',$coo_kie);
+    			$this->success('你好,欢迎登录','/shop',1);
     		}
 
     	}

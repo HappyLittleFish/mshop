@@ -16,10 +16,13 @@
 <div class="head-bar clearfix">
 <div class="block1">
     <div class="site-bar">
-           您好<font color = "red"><?php echo (cookie('username')); ?></font>，欢迎光临本店！
-           <!-- <a href="<?php echo U('Home/user/logout');?>">滚蛋蛋</a> -->
+    <?php if(che()): ?>您好<font color = "red"><?php echo (cookie('username')); ?></font>，欢迎光临本店！
+    <?php else: ?>
            <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a>
-           <a href="<?php echo U('Home/user/reg');?>" style="color:#50884b">免费注册</a>
+           <a href="<?php echo U('Home/user/reg');?>" style="color:#50884b">免费注册</a><?php endif; ?>
+           
+           <!-- <a href="<?php echo U('Home/user/logout');?>">滚蛋蛋</a> -->
+           
     </div>
       <ul class="sitelinks">
         <li><a href="./flow.php.htm"></a><a href="./flow.php.htm" title="查看购物车">购物车有 1 件</a></li>
