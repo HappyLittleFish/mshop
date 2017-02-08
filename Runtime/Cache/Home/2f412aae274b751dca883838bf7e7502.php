@@ -15,18 +15,14 @@
 <body>
 <div class="head-bar clearfix">
 <div class="block1">
-    <div class="site-bar"><font id="ECS_MEMBERZONE">
-        <?php if(che()): ?>您好:<font color="red">
-                <b><?php echo (cookie('username')); ?>VIP</b></font>欢迎光临本店！
-                | <a href="<?php echo U('Home/user/logout');?>">滚蛋蛋</a>
-                <?php else: ?>
-                <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a> |
-       <a href="<?php echo U('Home/user/reg');?>" style="color:#50884b">免费注册</a><?php endif; ?>
-
-
-    </font></div>
+    <div class="site-bar">
+           您好<font color = "red"><?php echo (cookie('username')); ?></font>，欢迎光临本店！
+           <!-- <a href="<?php echo U('Home/user/logout');?>">滚蛋蛋</a> -->
+           <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a>
+           <a href="<?php echo U('Home/user/reg');?>" style="color:#50884b">免费注册</a>
+    </div>
       <ul class="sitelinks">
-        <li><a href="./flow.php.htm"></a><a href="./flow.php.htm" title="查看购物车">购物车有 0 件</a></li>
+        <li><a href="./flow.php.htm"></a><a href="./flow.php.htm" title="查看购物车">购物车有 1 件</a></li>
         <li> <a href="./flow.php.htm">查看购物车</a> </li>
         <li style=" margin-top:0px;*margin-top:-2px;">|</li>
         <li> <a href="./pick_out.php.htm">选购中心</a> </li>

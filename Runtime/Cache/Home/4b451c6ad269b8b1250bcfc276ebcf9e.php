@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0044)http://free.68ecshop.com/hechaw2013/user.php -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="Generator" content="ECSHOP v2.7.3">
@@ -11,7 +11,7 @@
 </style>
 <link rel="shortcut icon" >
 <link rel="icon"  type="image/gif">
-<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="head-bar clearfix">
@@ -30,7 +30,7 @@
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="" title=""><img src="__PUBLIC__/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl"><a href="" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
       <div class="btMap">
         <div class="search ">
           <form id="searchForm" name="searchForm" method="get" action="">
@@ -86,13 +86,13 @@
                 <input type="text" class="" name="yzm" size="15">
               </label>
               <label>
-              <img src="{:U('Home/User/yzm')}" alt="" width="200" height="30">
+              <img src="<?php echo U('Home/User/yzm');?>" alt="" width="200" height="30">
               </label>
            <!--    <label> <span>请输入验证码</span>
                 <input type="text" class="" name="yzm" size="15">
               </label> -->
 <!--               <label>
-                <img src="{:U('Home/user/yzm')}" alt="" width="200" height="40" />
+                <img src="<?php echo U('Home/user/yzm');?>" alt="" width="200" height="40" />
               </label> -->
                 <div class="btns">
                 <input type="submit" value="" class="btn_submit_b">
@@ -123,7 +123,7 @@
 					    <p>2. 收藏您关注的商品</p>
 					    <p>3. 享受会员积分制度</p>
 					    <p>4. 订阅本店商品信息</p>
-					    <p><a href=''><img src="__PUBLIC__/Home/images/bnt_ur_regh.gif"></a></p>
+					    <p><a href=''><img src="/shop/Public/Home/images/bnt_ur_regh.gif"></a></p>
 				    </div>
 				</div>
 			</div>
@@ -187,7 +187,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="__PUBLIC__/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|
