@@ -241,7 +241,11 @@
         <div class="clearfix grid">
            
             <?php if(is_array($goodsList)): foreach($goodsList as $key=>$g): ?><div class="goodsbox1" style="margin: 5px 9px 8px 8px;*margin:5px 6px 10px 14px;">
-                <div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>"><img src=".<?php echo ($g['goods_img']); ?>" alt="<?php echo ($g['goods_name']); ?>"></a></div>
+                <div class="imgbox1">
+                <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>">
+                <img src="http://localhost/shop<?php echo ($g['goods_img']); ?>" alt="<?php echo ($g['goods_name']); ?>">
+                </a>
+                </div>
                 <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>" title="ECSHOP模板中心68ecshop.com测试商品"><?php echo ($g[goods_name]); ?></a><br>
                 <font class="market">￥<?php echo ($g['market_price']); ?>元</font>
                 <b class="f1">￥<?php echo ($g['shop_price']); ?>元</b><br>

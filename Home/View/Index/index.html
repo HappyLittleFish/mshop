@@ -136,9 +136,28 @@
 </tbody></table></div> </div>
 
     <div class="w230">
-<h1 class="mod2tit" style="background:url(themes/68ecshop_hechafree/images/sdgg.gif) repeat-x; height:27px; color:#000">
-    最近浏览
-</h1>
+
+<h1 class="mod2tit" style="background:url(__PUBLIC__/Home/images/sdgg.gif) repeat-x; height:27px; color:#000">最近浏览</h1>
+  <div class="mod1 mod2 blank" id="topbox">
+  <span class="lb"></span><span class="rb"></span>
+   <ul id="top10">
+      <foreach name="history" item ="g">
+      <li>
+       <div class="first">
+        <div class="fl">
+        <font style="color:#F00; font-weight:bold"></font> <a href="" title=""><!-- <img src="{$g['thumb_img']}"> -->{$g.thumb_name}</a>
+        </div>
+        <div class="fr"><b class="f1">{$g.thumb_price}</b></div>
+       </div>
+<!--        <div class="last">
+        <a href=""><img src="__PUBLIC__/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
+        <b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
+        本店售价：<b class="f1">￥68元</b><br>
+       </div> -->
+      </li>
+      </foreach>
+    </ul>
+</div>
 
 <div class="mod1 mod2 blank" id="topbox">
 	<span class="lb"></span><span class="rb"></span>

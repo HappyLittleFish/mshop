@@ -9,10 +9,9 @@ class IndexController extends Controller {
     	$goodsModel = D('Admin/Goods');
     	$hot = $goodsModel->field('goods_id,goods_name,shop_price,goods_img,market_price')->where('is_hot = 1')->order('goods_id desc')->limit('0,4')->select();
     	$this->assign('hot',$hot);
-    	
-
-
-
+    	$this->assign('history',session('history'));
         $this->display();
+        
     }
+    
 }
